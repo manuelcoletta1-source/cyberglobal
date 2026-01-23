@@ -4,59 +4,79 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CyberGlobal — DUAL-USE | Hermeticum B.C.E.</title>
-  <meta name="description" content="CyberGlobal è un’infrastruttura DUAL-USE per interoperabilità e sicurezza in Hermeticum B.C.E., soggetta a policy UNEBDO, IPR valido e conformità UE-first." />
+  <meta name="description" content="CyberGlobal è l’infrastruttura DUAL-USE di governance tecnica e interoperabilità globale di Hermeticum B.C.E., soggetta a policy, audit e controllo UE-first." />
   <meta name="author" content="Manuel Coletta" />
   <meta name="publisher" content="Esoterologia Edizioni" />
   <style>
     :root { color-scheme: dark; }
-    body {
-      margin: 0;
+    body{
+      margin:0;
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      background: #0b0c10;
-      color: #e8e8e8;
+      background:
+        radial-gradient(1200px 600px at 20% -10%, rgba(255,160,100,.20), transparent 55%),
+        #0b0c10;
+      color:#e8e8e8;
     }
-    header, main, footer {
+    header, main, footer{
       max-width: 1100px;
       margin: 0 auto;
       padding: 24px;
     }
-    .card {
-      background: #0f1117;
+    .card{
+      background: rgba(15,17,23,.80);
       border: 1px solid #24262b;
       border-radius: 18px;
       padding: 22px;
       box-shadow: 0 12px 30px rgba(0,0,0,.35);
+      backdrop-filter: blur(10px);
     }
-    h1 { font-size: 30px; margin: 0 0 10px; }
-    h2 { font-size: 18px; font-weight: 600; opacity: .9; margin: 0 0 18px; }
-    p { line-height: 1.55; opacity: .95; }
-    .tag {
-      display: inline-block;
+    h1{ font-size: 30px; margin: 0 0 10px; }
+    h2{ font-size: 18px; font-weight: 650; opacity: .9; margin: 0 0 18px; }
+    h3{ font-size: 16px; margin: 0 0 10px; }
+    p{ line-height: 1.55; opacity: .95; }
+    .muted{ opacity: .75; font-size: 13px; }
+    .tag{
+      display:inline-block;
       font-size: 12px;
       padding: 6px 10px;
       border-radius: 999px;
-      border: 1px solid #ff9f43;
-      color: #ffb366;
+      border: 1px solid #ffb47a;
+      color: #ffcaa0;
       margin-bottom: 12px;
     }
-    .btns {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 16px;
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
     }
-    .btn {
+    @media (min-width: 900px){
+      .grid{ grid-template-columns: 1fr 1fr; }
+    }
+    .btns{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top: 14px;
+    }
+    .btn{
       border: 1px solid #2b2f38;
       border-radius: 12px;
       padding: 10px 14px;
-      background: #111420;
-      color: #9bdcff;
+      background: rgba(17,20,32,.85);
+      color: #ffb47a;
       text-decoration: none;
       font-size: 14px;
     }
-    .btn:hover { text-decoration: underline; }
-    .muted { opacity: .75; font-size: 13px; }
-    footer { text-align: center; }
+    .btn:hover{ text-decoration: underline; }
+    .mono{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono","Courier New", monospace;
+    }
+    footer{ text-align:center; }
+    .sep{
+      height:1px;
+      background:#24262b;
+      margin: 14px 0;
+    }
   </style>
 </head>
 <body>
@@ -65,43 +85,63 @@
   <div class="card">
     <div class="tag">DUAL-USE · Uso controllato</div>
     <h1>CyberGlobal</h1>
-    <h2>Interoperabilità & Sicurezza — Hermeticum B.C.E.</h2>
+    <h2>Governance tecnica e interoperabilità globale</h2>
     <p>
-      CyberGlobal è un’infrastruttura <b>DUAL-USE</b> per interoperabilità globale
-      e sicurezza tecnica, progettata per operare esclusivamente
-      sotto <b>policy UNEBDO</b>, <b>IPR valido</b> e <b>conformità verificabile</b>.
+      CyberGlobal coordina sistemi complessi e federati
+      garantendo sicurezza, policy e auditabilità
+      in contesti civili e strategici.
     </p>
     <p class="muted">
-      Nessun uso anonimo. Nessuna esecuzione non governata.
+      Regola fondamentale:
+      <span class="mono">se una condizione non è verificabile → l’interoperabilità è bloccata</span>
     </p>
     <div class="btns">
       <a class="btn" href="./README.md">README</a>
+      <a class="btn" href="https://github.com/manuelcoletta1-source/cyberglobal">Apri repo</a>
       <a class="btn" href="../unebdo/">UNEBDO</a>
-      <a class="btn" href="../opc/">OPC</a>
-      <a class="btn" href="../ipr-gate/">IPR-GATE</a>
-      <a class="btn" href="../ipr-comply/">IPR-COMPLY</a>
-      <a class="btn" href="../gitjoker-c2/">GitJoker-C2</a>
+      <a class="btn" href="../hermeticum-bce-services/">Services HUB</a>
     </div>
   </div>
 </header>
 
-<main class="card">
-  <h3>Classificazione</h3>
-  <p>
-    CyberGlobal è classificato come tecnologia <b>DUAL-USE</b>.
-    L’uso è consentito solo in contesti verificabili, auditabili
-    e conformi alla normativa UE applicabile.
-  </p>
-  <p class="muted">
-    In assenza di verifica → blocco automatico.
-  </p>
+<main class="grid">
+
+  <section class="card">
+    <h3>Ruolo nello stack</h3>
+    <p class="muted">
+      CyberGlobal opera solo dopo identità, policy e enforcement.
+    </p>
+    <p class="mono">
+      OPC → UNEBDO → IPR → COMPLY → CyberGlobal → GitJoker-C2
+    </p>
+    <div class="sep"></div>
+    <p class="muted">
+      Ogni interazione cross-dominio è opponibile e auditabile.
+    </p>
+  </section>
+
+  <aside class="card">
+    <h3>Principi chiave</h3>
+    <p class="muted">
+      • Dual-use controllato<br/>
+      • UE-first<br/>
+      • Audit-by-design<br/>
+      • Fail-closed<br/>
+      • Opponibilità nel tempo
+    </p>
+    <div class="btns">
+      <a class="btn" href="../metaexchange/">METAEXCHANGE</a>
+      <a class="btn" href="../iospace/">IOSPACE</a>
+    </div>
+  </aside>
+
 </main>
 
 <footer>
   <p class="muted">
     © Manuel Coletta<br/>
     <b>Esoterologia Edizioni</b><br/>
-    CyberGlobal · Hermeticum B.C.E. · DUAL-USE
+    CyberGlobal · Hermeticum B.C.E.
   </p>
 </footer>
 
