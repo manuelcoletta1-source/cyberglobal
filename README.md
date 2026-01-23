@@ -1,12 +1,36 @@
 # CyberGlobal  
-## Infrastruttura globale per interoperabilità e sicurezza
+## Infrastruttura globale DUAL-USE per interoperabilità e sicurezza
 
-**CyberGlobal** è un modulo infrastrutturale dell’ecosistema **Hermeticum B.C.E.**  
-progettato per abilitare interoperabilità, sicurezza e governance tecnica  
-su reti, sistemi e domini interconnessi, con piena tracciabilità e opponibilità.
+**CyberGlobal** è un modulo infrastrutturale **DUAL-USE**
+dell’ecosistema **Hermeticum B.C.E.**.
 
-CyberGlobal fornisce un **contesto globale di riferimento** per l’uso coordinato  
-dei moduli IPR, delle policy UNEBDO e dei meccanismi di conformità.
+È progettato per operare sia in **contesti civili e istituzionali**
+sia in **contesti critici, strategici o ad alta sensibilità**,
+garantendo interoperabilità, sicurezza e governance tecnica
+con **tracciabilità, opponibilità e controllo UE-first**.
+
+CyberGlobal NON è un’arma.
+NON è un sistema offensivo.
+È una **infrastruttura tecnica di coordinamento e sicurezza**
+con potenziale impiego duale, soggetta a policy, conformità e audit.
+
+---
+
+## Classificazione DUAL-USE
+
+CyberGlobal è classificato **DUAL-USE** perché:
+
+- può operare in contesti civili (governance, interoperabilità, auditing)
+- può essere adottato in contesti critici o strategici
+- non esegue attacchi né funzioni offensive
+- è vincolato a **policy UNEBDO**, **OPC** e **conformità verificabile**
+- è progettato per **uso controllato, tracciabile e opponibile**
+
+L’uso è sempre subordinato a:
+- **IPR valido**
+- **policy applicabili**
+- **livelli di conformità espliciti**
+- **fail-closed by default**
 
 ---
 
@@ -14,81 +38,60 @@ dei moduli IPR, delle policy UNEBDO e dei meccanismi di conformità.
 
 CyberGlobal serve a:
 
-- definire regole globali di interoperabilità tecnica
-- integrare sicurezza e policy tra domini affidabili
-- abilitare contesti multi-dominio con IPR verificabili
-- rendere opponibili le interazioni cross-sistema
-- garantire audit e responsabilità tecnica
+- definire interoperabilità tecnica **cross-dominio**
+- integrare sicurezza e policy su scala globale
+- coordinare sistemi complessi e federati
+- rendere opponibili le interazioni inter-sistema
+- supportare audit e responsabilità tecnica
 
-CyberGlobal non è un servizio applicativo.  
-È un **framework di interoperabilità governata**, cioè un insieme  
-di regole tecniche, vincoli di sicurezza e criteri di governance su larga scala.
+Non è un servizio applicativo.
+È un **framework infrastrutturale di governance tecnica**.
 
 ---
 
 ## Cosa fa / Cosa non fa
 
 **Fa**
-- supporta interoperabilità cross-dominio
-- vincola policy e sicurezza a livello globale
-- definisce contesti fidati e interoperabili
-- abilita audit, tracciabilità e verificabilità
-- guida l’adozione istituzionale in ecosistemi complessi
+- abilita interoperabilità globale governata
+- applica vincoli di sicurezza e policy
+- supporta contesti dual-use controllati
+- rende auditabili interazioni strategiche
+- guida l’adozione istituzionale UE
 
 **Non fa**
-- definizione identità (→ IPR-CORE)  
-- custodia documentale (→ IPR-VAULT)  
-- tracciamento eventi (→ IPR-TRACE)  
-- controllo ex-ante (→ IPR-GATE)  
-- valutazione normativa statica (→ IPR-COMPLY)  
-- scambio diretto di valore (→ IPR-EXCHANGE)
+- funzioni offensive o di attacco
+- decisioni autonome non governate
+- uso anonimo o non tracciato
+- bypass di policy o conformità
+- esecuzione senza IPR valido
 
 ---
 
 ## Posizione nello stack Hermeticum B.C.E.
-OPC (Policy) ↓ UNEBDO (Layer 0 — Enforcement) ↓ IPR ↓ CORE · VAULT · TRACE · GATE · COMPLY · EXCHANGE ↓ CyberGlobal ↓ GitJoker-C2 / IPR-AIJOKER-C2
-CyberGlobal opera **solo** se:
-
-- l’IPR è **valido**
-- la policy UNEBDO è applicabile
-- i livelli di conformità sono soddisfatti
-
-Se una di queste condizioni non è verificabile,  
-**l’interoperabilità viene negata**.
+OPC (Policy) ↓ UNEBDO (Layer 0 — Enforcement) ↓ IPR ↓ CORE · VAULT · TRACE · GATE · COMPLY · EXCHANGE ↓ CyberGlobal (DUAL-USE) ↓ GitJoker-C2 / IPR-AIJOKER-C2
+Se una condizione non è verificabile,
+**l’interoperabilità è bloccata**.
 
 ---
 
 ## Principi operativi
 
-- **Interoperabilità fidata**
-- **Conformità prima della connessione**
-- **Sicurezza tecnica come vincolo**
+- **Dual-Use controllato**
+- **UE-first**
 - **Audit-by-design**
-- **Fail-closed come comportamento di default**
-
-Se l’interazione non è verificabile,  
-**non si attiva**.
+- **Fail-closed**
+- **Opponibilità nel tempo**
 
 ---
 
-## Ambito UE
+## Ambito normativo
 
-CyberGlobal è progettato in coerenza con:
-
-- **AI Act UE**
-- **NIS2 / CER**
-- **eIDAS / ETSI**
-- **Horizon Europe**
-
----
-
-## Destinatari
-
-- infrastrutture critiche
-- sistemi internazionali
-- reti federate
-- governance tecnica UE
-- organismi di sicurezza e auditing
+CyberGlobal è coerente con:
+- AI Act UE
+- NIS2 / CER
+- eIDAS / ETSI
+- Horizon Europe
+- Regolamenti UE su tecnologie dual-use (approccio restrittivo)
 
 ---
 
@@ -106,4 +109,4 @@ CyberGlobal è progettato in coerenza con:
 
 ## Stato
 
-🟢 **ATTIVO — Interoperabilità globale verificabile**
+🟠 **ATTIVO — DUAL-USE (uso controllato)**
